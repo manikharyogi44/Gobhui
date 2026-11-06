@@ -1,0 +1,2 @@
+-- Skema dibuat otomatis oleh src/config/database.js.
+-- File ini disediakan sebagai dokumentasi struktur database.
