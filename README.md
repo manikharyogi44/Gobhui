@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # KasirKita POS — Proyek UTS PBAD 2026/2027
 
 Project UTS: Sistem E-Commerce/POS berbasis web dengan backend REST API terpusat.
@@ -63,3 +64,7 @@ curl -X POST http://localhost:3000/api/products -H "Content-Type: application/js
 ## Catatan
 
 Nama, identitas kelompok, dan anggota masih perlu diisi. Fitur Mobile (React Native) dan Desktop (C# WinForms) merupakan target UAS, bukan cakupan implementasi UTS ini.
+=======
+# Gobhui
+UTS Pengembangan
+>>>>>>> 881d05102bf3d516f00a8c4b371070c34b43b89f
