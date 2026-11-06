@@ -1,2 +1,0 @@
-# Gobhui
-UTS Pengembangan
