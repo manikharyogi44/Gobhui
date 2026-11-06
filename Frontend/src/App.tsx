@@ -1,3 +1,4 @@
+import Logo from "./asset/logo KasirKita POS.png";
 import { useEffect, useMemo, useState } from "react";
 import {
   LayoutDashboard,
@@ -264,9 +265,7 @@ export default function App() {
     <div className="app">
       <aside className="sidebar">
         <div className="brand">
-          <div className="brand-icon">
-            <Store size={21} />
-          </div>
+          <img src={Logo} alt="Logo KasirKita POS" className="brand-logo" />
           <div>
             <b>KasirKita</b>
             <small>POINT OF SALE</small>

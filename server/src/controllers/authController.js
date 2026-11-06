@@ -22,7 +22,7 @@ export async function login(req, res, next) {
     const token = jwt.sign(
       { id: user.id, email: user.email, role: user.role },
       process.env.JWT_SECRET || "kasirkita-dev-secret-ganti-di-env",
-      { expiresIn: process.env.JWT_EXPIRES_IN || "8h" },
+      { expiresIn: process.env.JWT_EXPIRES_IN || "1d" },
     );
     res.json({
       success: true,

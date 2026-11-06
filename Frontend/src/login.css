@@ -266,3 +266,22 @@
     margin-top: 45px;
   }
 }
+.login-logo {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+.mobile-login-brand .login-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}

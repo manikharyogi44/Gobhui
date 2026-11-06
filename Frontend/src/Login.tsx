@@ -1,3 +1,4 @@
+import Logo from "./asset/logo KasirKita POS.png";
 import { useState, type FormEvent } from "react";
 import {
   LockKeyhole,
@@ -53,9 +54,7 @@ export default function Login({
     <main className="login-page">
       <section className="login-visual">
         <div className="login-brand">
-          <span className="login-brand-icon">
-            <Store size={25} />
-          </span>
+          <img src={Logo} alt="Logo KasirKita POS" className="login-logo" />
           <span>
             KasirKita<small>POINT OF SALE</small>
           </span>
@@ -67,9 +66,6 @@ export default function Login({
             Kelola produk, pelanggan, dan transaksi penjualan dalam satu sistem
             yang praktis dan terintegrasi.
           </p>
-          <div className="visual-feature">
-            <ShieldCheck size={19} /> Akses aman dengan autentikasi JWT
-          </div>
         </div>
         <div className="visual-footer">
           KASIRKITA POS · SISTEM INFORMASI PENJUALAN
@@ -78,9 +74,7 @@ export default function Login({
       <section className="login-panel">
         <form className="login-card" onSubmit={submit}>
           <div className="mobile-login-brand">
-            <span className="login-brand-icon">
-              <Store size={22} />
-            </span>
+            <img src={Logo} alt="Logo KasirKita POS" className="login-logo" />
             <b>KasirKita</b>
           </div>
           <div className="login-heading">
