@@ -85,11 +85,10 @@ export async function initializeDatabase() {
       ["Daia", 15000, 15, "Deterjen", "Pembersih Pakaian"],
       ["Surya 16", 36000, 20, "Rokok", "Rokok Surya"],
       ["Axe", 28000, 20, "Deodorant", "Pembersih Ketiak"],
-      ["Posh" 25000, 20, "Deodorant", "Pembersih Ketiak"],
+      ["Posh", 25000, 20, "Deodorant", "Pembersih Ketiak"],
       ["Pocari Sweat", 8000, 20, "Minuman", "Minuman ION"],
       ["Hydro Coco", 13000, 20, "Minuman", "Minuman Segar"],
-      ["Sari Roti Tawar", 20000, 10, "Makanan", "Roti Sehat"],
-      
+      ["Sari Roti Tawar", 20000, 10, "Makanan", "Roti Sehat"],   
     ];
     for (const p of samples)
       await dbRun(
