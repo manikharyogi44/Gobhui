@@ -78,7 +78,7 @@ export async function initializeDatabase() {
       ],
       ["Croissant Butter", 18000, 30, "Makanan", "Croissant mentega"],
       ["Air Mineral 600ml", 5000, 100, "Minuman", "Air mineral botol"],
-      ["Roti Cokelat", 12000, 24, "Makanan", "Roti isi cokelat"],
+      ["Roti Cokelat", 12000, 24, "Makanan", "Roti isi cokelat"], ["Indomie Hype Abis", 4000, 30, "Makanan", "Indomie Goreng"],
     ];
     for (const p of samples)
       await dbRun(
