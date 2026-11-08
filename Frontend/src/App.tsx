@@ -267,7 +267,7 @@ export default function App() {
         <div className="brand">
           <img src={Logo} alt="Logo KasirKita POS" className="brand-logo" />
           <div>
-            <b>KasirKita</b>
+            <b>Warung Desa</b>
             <small>POINT OF SALE</small>
           </div>
         </div>
@@ -324,7 +324,7 @@ export default function App() {
             <section className="welcome">
               <div>
                 <span className="pill">● SISTEM AKTIF</span>
-                <h2>Selamat datang di KasirKita 👋</h2>
+                <h2>Selamat datang di Warung Desa 👋</h2>
                 <p>
                   Kelola produk, pelanggan, dan transaksi penjualan dalam satu
                   tempat.

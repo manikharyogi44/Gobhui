@@ -56,11 +56,11 @@ export default function Login({
         <div className="login-brand">
           <img src={Logo} alt="Logo KasirKita POS" className="login-logo" />
           <span>
-            KasirKita<small>POINT OF SALE</small>
+            Warung Desa<small>POINT OF SALE</small>
           </span>
         </div>
         <div className="visual-copy">
-          <span className="visual-kicker">SISTEM KASIR MODERN</span>
+          <span className="visual-kicker">SISTEM MODERN</span>
           <h1>Kelola bisnis lebih mudah, setiap hari.</h1>
           <p>
             Kelola produk, pelanggan, dan transaksi penjualan dalam satu sistem
@@ -68,7 +68,7 @@ export default function Login({
           </p>
         </div>
         <div className="visual-footer">
-          KASIRKITA POS · SISTEM INFORMASI PENJUALAN
+          Warung Desa POS · SISTEM INFORMASI PENJUALAN
         </div>
       </section>
       <section className="login-panel">
@@ -128,11 +128,6 @@ export default function Login({
           </button>
           <div className="login-security">
             <ShieldCheck size={15} /> Login dilindungi token keamanan JWT
-          </div>
-          <div className="login-demo">
-            <b>Akun demo</b>
-            <span>Email: admin@kasirkita.com</span>
-            <span>Password: admin123</span>
           </div>
         </form>
         <div className="login-copyright">
