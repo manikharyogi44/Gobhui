@@ -1,4 +1,4 @@
-import Logo from "./asset/logo KasirKita POS.png";
+import Logo from "./asset/Logo Warung Desa.png";
 import { useEffect, useMemo, useState } from "react";
 import {
   LayoutDashboard,
@@ -257,7 +257,7 @@ export default function App() {
     ["dashboard", "Ringkasan", LayoutDashboard],
     ["products", "Produk", Package],
     ["customers", "Pelanggan", Users],
-    ["sales", "Kasir / POS", ShoppingCart],
+    ["sales", "Kasir", ShoppingCart],
     ["transactions", "Transaksi", Receipt],
   ] as const;
   if (!token) return <Login onLogin={handleLogin} />;

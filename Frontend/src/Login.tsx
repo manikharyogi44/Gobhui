@@ -1,4 +1,4 @@
-import Logo from "./asset/logo KasirKita POS.png";
+import Logo from "./asset/Logo Warung Desa.png";
 import { useState, type FormEvent } from "react";
 import {
   LockKeyhole,
